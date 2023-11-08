@@ -32,7 +32,9 @@ TimeLimitedCache.prototype.set = function(key, value, duration) {
 
 /** 
  * @param {number} key
+
  * @return {number} value associated with key
+
  */
 TimeLimitedCache.prototype.get = function(key) {
    if (this.cache.has(key))
