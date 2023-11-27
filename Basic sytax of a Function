@@ -1,4 +1,6 @@
+//this isnthe basic syntax of a function 
 function f(...args) {
+
   const sum = args[0] + args[1];
   return sum;
 }
